@@ -1,0 +1,58 @@
+body {
+  box-sizing: border-box;
+}
+
+.main-box {
+  background-color: rebeccapurple;
+  height: 500px;
+  width: 500px;
+  margin: 100px auto 40px auto;
+  position: relative;
+  border-radius: 10px;
+}
+
+.box {
+  position: absolute;
+  background-color: greenyellow;
+  height: 50px;
+  width: 50px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.btn-left {
+  position: absolute;
+  top: 0px;
+  left: -40px;
+  height: 500px;
+  width: 40px;
+}
+.btn-right {
+  position: absolute;
+  top: 0px;
+  right: -40px;
+  height: 500px;
+  width: 40px;
+}
+.btn-up {
+  position: absolute;
+  left: 0px;
+  height: 40px;
+  width: 500px;
+  top: -40px;
+}
+.btn-down {
+  position: absolute;
+  left: 0px;
+  bottom: -40px;
+  height: 40px;
+  width: 500px;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: aqua;
+  border: none;
+}
